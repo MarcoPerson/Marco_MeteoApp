@@ -47,7 +47,7 @@ function Weather(props) {
         <div>
             <div className="container pt-5">
                 <div className="row justify-content-center">
-                    <div className="col-md-4 weather">
+                    <div className="col-sm-10 col-md-6 col-xl-4 col-12 weather">
                         <div class="card bg-dark text-white shadow border-0">
                             <img src={`https://source.unsplash.com/600x900/?${data.weather[0].main}`} class="card-img" alt="..." />
                             <div class="card-img-overlay text-center">

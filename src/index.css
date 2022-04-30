@@ -15,7 +15,7 @@ code {
 }
 
 .row>.col-md-4{
-  box-shadow: 0 0 300px 0 black;
+  box-shadow: 0 0 300px 0 #eee;
   padding-left: 0px;
   padding-right: 0px;
 }
