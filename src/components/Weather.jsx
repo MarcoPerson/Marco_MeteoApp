@@ -49,7 +49,7 @@ function Weather(props) {
                 <div className="row justify-content-center">
                     <div className="col-sm-10 col-md-6 col-xl-4 col-12 weather">
                         <div class="card bg-dark text-white shadow border-0">
-                            <img src={`https://source.unsplash.com/600x900/?${data.weather[0].main}`} class="card-img" alt="..." />
+                            <img src={`https://picsum.photos/600/900?${data.weather[0].main}`} class="card-img" alt="..." />
                             <div class="card-img-overlay text-center">
                                 <form onSubmit={ (e) => handleSubmit(e)} className='my-4'>
                                     <div class="input-group mb-3 m-auto" style={{width:300}}>
